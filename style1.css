@@ -1,0 +1,21 @@
+#pong{
+	text-align: center;
+}
+
+#board{
+	border: 3px solid;
+}
+
+#score{
+	font-family: "consolas", monospace;
+	font-size: 100px;
+}
+#reset{
+	font-family: "consolas", monospace;
+	font-size: 22px;
+	width: 100px;
+	height: 50px;
+	border: 4px solid;
+	border-radius: 15px;
+	cursor: pointer;
+}

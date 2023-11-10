@@ -1,0 +1,78 @@
+@font-face {
+	font-family: Roboto-light;
+	src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.box{
+	border: 5px solid;
+	font-size: 4em;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+body{
+	background-color: slategrey;
+}
+h1 {
+	color: white;
+	font-family: Roboto-light, Geneva, Tahoma, sans-serif;
+	border: 3px solid purple;
+	border-radius: 10px;
+	text-shadow: 3px 3reopx 5px black, -3px -3px 5px red;
+}
+p{
+	font-family: Montserrat, "courier new";
+	font-size: 1em;
+}
+
+.odd{
+	color:azure;
+}
+
+.even{
+	color:blueviolet;
+}
+
+#p1{
+	color: tomato;
+}
+
+#p2{
+	color: rgb(102, 222, 255);
+}
+
+#p3{
+	color: #59ff5f;
+}
+
+#p4{
+	color: hsl(288, 75%, 30%)
+}
+
+#box1{
+	background-color: grey;
+	box-shadow: 3px 3px 5px;
+}
+#box2{
+	background-color: burlywood;
+}
+#img1{
+	float: left;
+	margin-right: 10px;
+}
+#img2{
+	float: right;
+	margin-left: 10px;
+}
+
+#overflow{
+	border: 2px solid;
+	height: 50px;
+	overflow: auto;
+}
